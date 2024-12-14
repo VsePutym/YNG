@@ -1,0 +1,14 @@
+.container{
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	align-items: center;
+	h2{
+		color: #8bc34a;
+		font-size: 30px;
+		transform: translateX(60px);
+	}
+	img{
+		transform: translateX(-65px);
+		z-index: 1000;
+	}
+}

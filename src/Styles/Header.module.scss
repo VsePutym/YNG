@@ -1,0 +1,18 @@
+.container{
+	font-family: "Playfair Display", serif;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000; /* Чёрный */
+	border-bottom: 1px solid #558b2f; /* Зелёная линия */
+	margin-bottom: 50px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+	h2{
+		margin: 20px;
+		color: white;
+	}
+}

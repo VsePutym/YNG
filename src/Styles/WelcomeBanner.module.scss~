@@ -1,0 +1,52 @@
+.container{
+	margin-top: 30px;
+	p{
+		margin: 0 30px 30px 30px;
+	}
+}
+.title{
+	margin: 0 30px 30px 30px;
+	h2{
+		color: #8bc34a;
+		font-style: italic;
+	}
+}
+.foodText{
+	width: 150px;
+	float: right;
+}
+.imgs{
+
+}
+.peoples{
+	object-fit: contain;
+	width: 100%;
+	padding: 0 10px;
+}
+.food{
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.container{
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.foodText{
+		width: 250px;
+	}
+	.food{
+		display: block;
+		width: 400px;
+		object-fit: contain;
+	}
+	.imgs{
+		justify-content: center;
+		display: flex;
+		margin-top: 100px;
+		img{
+			width: 80%;
+			margin-top: 30px;
+		}
+	}
+}

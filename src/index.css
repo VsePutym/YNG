@@ -1,0 +1,72 @@
+/* Применяем box-sizing для всех элементов */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Сброс базовых отступов и padding */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+/* Базовые стили для body */
+body {
+	font-family: "Playfair Display", serif;
+	line-height: 1.5;
+	color: black;
+	background-color: white;
+}
+
+/* Универсальные стили для списков */
+ul, ol, Link, a {
+	list-style: none !important;
+	text-decoration: none !important;
+	color: white;
+}
+
+/* Базовая настройка для изображений и видео */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Простой контейнер для центровки */
+.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+
+.mySwiper .swiper-slide {
+	padding-bottom: 50px; /* Отступ снизу для контейнера */
+	box-shadow: none !important; /* Полное удаление теней */
+}
+
+.mySwiper .swiper-slide-shadow {
+	display: none !important; /* Убирает дополнительные тени, генерируемые Swiper */
+}
+.swiper-slide-shadow-top,
+.swiper-slide-shadow-right,
+.swiper-slide-shadow-bottom,
+.swiper-slide-shadow-left {
+	display: none !important;
+}
+
+.mySwiper .swiper-pagination {
+	bottom: -30px; /* Переместите ниже слайда */
+}
+
+.mySwiper .swiper-pagination-bullet {
+	background-color: #888888; /* Цвет стандартных точек */
+	opacity: 0.7; /* Прозрачность */
+	width: 12px; /* Ширина точки */
+	height: 12px; /* Высота точки */
+	transition: background-color 0.3s ease; /* Анимация */
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+	background-color: #8bc34a; /* Цвет активной точки */
+	opacity: 1; /* Полностью видимый */
+}

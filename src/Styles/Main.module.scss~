@@ -1,0 +1,38 @@
+.wrapperBG {
+	margin-bottom: 100px;
+}
+
+.BGS {
+	margin-top: 120px;
+	height: 600px;
+	position: relative;
+}
+.title{
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+.textOpen, .textPhone, .instagram{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 2%;
+	color: white;
+	left: 5%;
+	p{
+		margin-left: 10px;
+	}
+}
+.textPhone{
+	font-family: "Roboto Light", serif;
+	top: 10%;
+}
+.instagram{
+	top: 20%;
+	a{
+		margin-left: 10px!important;
+	}
+}
